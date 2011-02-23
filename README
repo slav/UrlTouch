@@ -5,3 +5,12 @@ It was created to schedule execution of a webpage, similar to online cron servic
 Usage: *UrlTouch http://url [-getArg1=value -getArg2=value]*
 
 *getArg1* and *getArg2* will be passed as arguments during GET call.
+
+Logging
+-------
+
+* Basic activities are logged at Info level.
+* Errors are logged at Error level.
+* URL to be touched are logged at Debug level.
+* Results of touching (output) is at Trace level.
+* Errors in commpand prompt are logged at Warn level.
